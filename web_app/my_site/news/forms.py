@@ -10,7 +10,7 @@ class ArticlesForm(ModelForm):
         widgets = {
             'title': TextInput(attrs={
                 'class': 'form-control',
-                'placeholder': 'Название статьи',
+                'placeholder': 'Назва допису',
             }),
             'anons': TextInput(attrs={
                 'class': 'form-control',
@@ -18,10 +18,10 @@ class ArticlesForm(ModelForm):
             }),
             'date': DateTimeInput(attrs={
                 'class': 'form-control',
-                'placeholder': 'Дата публикации'
+                'placeholder': 'Дата публікації'
             }),
             'full_text': Textarea(attrs={
                 'class': 'form-control',
-                'placeholder': 'Текст статьи',
+                'placeholder': 'Текст допису',
             }),
         }

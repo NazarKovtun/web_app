@@ -37,7 +37,7 @@ def create(request):
             form.save()
             return redirect('news_home')
         else:
-            error = 'Форма была неверной'
+            error = 'Форма була невірною'
 
     form = ArticlesForm()
 
