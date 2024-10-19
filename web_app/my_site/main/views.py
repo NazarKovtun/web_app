@@ -10,3 +10,7 @@ def index(request):
 
 def about(request):
     return render(request, 'main/about.html')
+
+
+def come_on(request):
+    return render(request, 'main/come_on.html')
