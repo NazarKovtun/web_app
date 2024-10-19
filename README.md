@@ -24,12 +24,12 @@ I am a platform for posting and reading articles on any topic.
 
 
 What starts to work you need:
-- clone repository:
+- Clone repository:
 ```commandline
 git clone https://github.com/NazarKovtun/web_app.git
 cd web_app
 ```
-- installing `requirements.txt`:
+- Installing `requirements.txt`:
 ```commandline
 pip install -r 'requirements.txt'
 ```
