@@ -10,9 +10,9 @@ for personal blogs or small news websites.
 Users can publish their own articles and explore others, enabling them to share valuable information.
 
 This project is a basic example for developing applications of this type. While working on it, I learned to:
-- **create** projects using Django;
-- **write** web pages using HTML and CSS;
-- **interact** with the database using Django ORM.
+- **Create** projects using Django;
+- **Write** web pages using HTML and CSS;
+- **Interact** with the database using Django ORM.
 
 <hr>
 
@@ -45,6 +45,11 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+![runserver.png](my_site/img/runserver.png)
+
+- Clic on http://127.0.0.1:8000 adn you can see a home page:
+
+![main_page.png](my_site/img/main_page.png)
 <hr>
 
 ## What's inside
