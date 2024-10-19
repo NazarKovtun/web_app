@@ -108,7 +108,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
-    BASE_DIR / "static",
+    BASE_DIR / "/home/nazar/Programming/for_git/django/web_app/my_site/main/static",
 ]
 
 # Default primary key field type
