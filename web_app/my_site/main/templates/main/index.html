@@ -6,7 +6,7 @@
     <div class="features">
         <h1>{{ title }}</h1>
         <p>Цей сайт має купу інформації та допоможе Вам вирішити будь-які питання, можливо ;)</p>
-        <button class="btn btn-warning">На сторінку Про нас</button>
+        <a href="{% url 'about' %}"><button class="btn btn-warning">На сторінку Про нас</button></a>
 
         {% for el in values %}
             {% if el == 'hello' %}
