@@ -1,59 +1,74 @@
-body {
+.main-page {
     background: #2c2c2c;
 }
 
-aside {
+.main-block {
+    display: flex;
+}
+
+.aside {
     float: left;
     background: #181818;
     width: 20%;
     padding: 2.5%;
-    height: 100vh;
     color: #fff;
     border-right: 5px solid #4d4d4d
 }
 
-aside img {
-    width: 100px;
-    float: left;
+.aside-logo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-aside .logo {
+.aside-img {
+    width: 100px;
+}
+
+.aside-logo {
     font-size: 50px;
-    margin-left: 20px;
     font-weight: bold;
     position: relative;
 }
 
-aside h3 {
+.aside h3 {
     margin-top: 50px;
     font-size: 28px;
 }
 
-aside ul {list-style: none}
-aside ul li {
+.aside ul {list-style: none}
+.aside ul li {
     color: #fff;
     display: block;
     margin-top: 20px;
     transition: transform .6s ease;
 }
 
-aside ul li:hover, aside ul a:hover {
+.aside ul li:hover, aside ul a:hover {
     color: #eb5959;
     text-decoration: non;
     transform: scale(1.05);
 }
 
-main .features {
+
+.main-content {
+    width: 80%;
+}
+
+.features {
     display: grid;
     float: left;
     color: #fff;
     margin-top: 100px;
     text-align: center;
-    width: 80%;
+    width: 100%;
 }
 
-main .features h1 {font-size: 50px;}
-main .features p {max-width: 400px; margin: 20px auto}
+.features h1 {font-size: 50px;}
+.features p {
+    max-width: 400px;
+    margin: 20px auto
+}
 
 .alert-warning {
     float: left;

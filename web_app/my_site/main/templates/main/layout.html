@@ -14,8 +14,10 @@
 <body class="main-page">
     <div class="main-block">
         <aside class="aside">
-            <img src="{% static 'main/img/face-smile-regular.svg' %}" class="aside-img" alt="Лого">
-            <span class="aside-logo">Smile</span>
+            <div class="aside-logo-content">
+                <img src="{% static 'main/img/face-smile-regular.svg' %}" class="aside-img" alt="Лого">
+                <span class="aside-logo">Smile</span>
+            </div>
             <h3>Навігація</h3>
             <ul>
                 <a href="{% url 'home' %}"><li><i class="fas fa-home"></i> Головна</li></a>
