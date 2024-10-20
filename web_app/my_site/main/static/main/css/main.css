@@ -92,17 +92,30 @@
 }
 
 form {
-    margin-left: 32%;
     width: 500px;
     margin-top: 50px;
 }
 
-/* contacts page style */
+.delete-form {
+    width: auto;
+}
 
-.contacts-block {
+.content-block {
     width: 50%;
     font-size: 20px;
 }
+
+.content-about {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.article-text {
+    margin-bottom: 50px;
+}
+
+/* contacts page style */
 
 .contact-list {
     list-style: none;
@@ -117,7 +130,7 @@ form {
 
 }
 
-.contacts-block ul li:hover, .contacts-block ul a:hover {
+.content-block ul li:hover, .content-block ul a:hover {
     color: lightsteelblue;
     text-decoration: none;
     transform: scale(1.05);
