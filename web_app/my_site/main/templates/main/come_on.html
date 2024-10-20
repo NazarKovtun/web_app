@@ -5,8 +5,10 @@
 {% block content %}
     <div class="features">
         <h1>Ти натиснув!</h1>
-        <p>І це поки що все...</p>
-        <p>Але дякую тобі. Можеш натиснути ще раз, якщо хочеш</p>
-        <a href="{% url 'come_on' %}"><button class="btn btn-danger">Нумо! Тисни!</button></a>
+        <div class="content-block">
+            <p>І це поки що все...</p>
+            <p>Але дякую тобі. Можеш натиснути ще раз, якщо хочеш</p>
+            <a href="{% url 'come_on' %}"><button class="btn btn-danger">Нумо! Тисни!</button></a>
+        </div>
     </div>
 {% endblock %}

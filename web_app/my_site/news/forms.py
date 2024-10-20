@@ -1,6 +1,8 @@
 from .models import Articles
 from django.forms import ModelForm, TextInput, DateTimeInput, Textarea
 
+from datetime import datetime
+
 
 class ArticlesForm(ModelForm):
     class Meta:
@@ -18,7 +20,7 @@ class ArticlesForm(ModelForm):
             }),
             'date': DateTimeInput(attrs={
                 'class': 'form-control',
-                'placeholder': 'Дата публікації'
+                'placeholder': f'Дата публікації, напр: {datetime.now().strftime("%Y-%m-%d %H:%M:%S ")}'
             }),
             'full_text': Textarea(attrs={
                 'class': 'form-control',
