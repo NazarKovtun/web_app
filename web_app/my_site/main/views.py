@@ -14,3 +14,7 @@ def about(request):
 
 def come_on(request):
     return render(request, 'main/come_on.html')
+
+
+def contacts(request):
+    return render(request, 'main/contacts.html')

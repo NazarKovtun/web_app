@@ -4,7 +4,11 @@
 
 .main-block {
     display: flex;
+    min-height: 100vh;
 }
+
+
+/* aside style */
 
 .aside {
     float: left;
@@ -36,7 +40,11 @@
     font-size: 28px;
 }
 
-.aside ul {list-style: none}
+.aside ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
 .aside ul li {
     color: #fff;
     display: block;
@@ -44,12 +52,14 @@
     transition: transform .6s ease;
 }
 
-.aside ul li:hover, aside ul a:hover {
+.aside ul li:hover, .aside ul a:hover {
     color: #eb5959;
-    text-decoration: non;
+    text-decoration: none;
     transform: scale(1.05);
 }
 
+
+/* main style */
 
 .main-content {
     width: 80%;
@@ -62,18 +72,21 @@
     margin-top: 100px;
     text-align: center;
     width: 100%;
+    justify-items: center;
 }
 
-.features h1 {font-size: 50px;}
+.features h1 {
+    font-size: 50px;
+}
+
 .features p {
-    max-width: 400px;
     margin: 20px auto
 }
 
 .alert-warning {
     float: left;
     clear: both;
-    width: 400px;
+    width: 35%;
     margin: 20px auto;
     text-align: left;
 }
@@ -82,4 +95,30 @@ form {
     margin-left: 32%;
     width: 500px;
     margin-top: 50px;
+}
+
+/* contacts page style */
+
+.contacts-block {
+    width: 50%;
+    font-size: 20px;
+}
+
+.contact-list {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.contact-list li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+
+}
+
+.contacts-block ul li:hover, .contacts-block ul a:hover {
+    color: lightsteelblue;
+    text-decoration: none;
+    transform: scale(1.05);
 }
