@@ -5,9 +5,13 @@
 {% block content %}
     <div class="features">
         <h1>Видалення допису</h1>
-        <form method="post">
-            {% csrf_token %}
-            <button class="btn btn-success" type="submit">Видалити допис</button>
-        </form>
+        <div class="content-block">
+            <p>Після видалення допис буде втрачено назавжди</p>
+            <p>Добре подумайте перед тим як натиснути кнопку</p>
+            <form method="post" class="delete-form">
+                {% csrf_token %}
+                <button class="btn btn-success" type="submit">Видалити допис</button>
+            </form>
+        </div>
     </div>
 {% endblock %}
