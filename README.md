@@ -7,51 +7,58 @@ for personal blogs or small news websites.
 
 Users can publish their own articles and explore others, enabling them to share valuable information.
 
-This project is a basic example for developing applications of this type. While working on it, I learned to:
+This project serves as a basic example for developing similar applications. While working on it, I learned to:
 - **Create** projects using Django;
 - **Write** web pages using HTML and CSS;
 - **Interact** with the database using Django ORM.
 
 
-## What I do
-I am a platform for posting and reading articles on any topic.
+## Features
+This platform allows for posting and reading articles on any topic.
 
-**I can:**
-- **Article Creation**: Users can add new entries;
-- **Article Editing**: Allows for updating existing entries;
-- **Article Deletion**: Provides the ability to delete entries;
-- **Article Viewing**: Displays a list of articles and individual details.
+**Key functionalities:**
+- **Create articles:** Users can add new articles;
+- **Edit articles:** Users can update existing articles;
+- **Delete articles:** Users can remove articles;
+- **View articles:** Users can browse a list of articles and view details of individual articles.
 
 
-What starts to work you need:
-- Clone repository:
-```commandline
+## How to Run the Project
+**To get started, follow these steps:**
+
+1. **Clone repository:**
+```bash
 git clone https://github.com/NazarKovtun/web_app.git
 cd web_app
 ```
-- Installing `requirements.txt`:
-```commandline
+
+2. **Installing the requirements:**
+```bash
 pip install -r 'requirements.txt'
 ```
-- Migrate database:
-```commandline
+
+3. **Apply database migrations:**
+```bash
 python manage.py migrate
 ```
-- Start server for local used:
-```commandline
+
+4. **Start the local server:**
+```bash
 python manage.py runserver
 ```
 
-![runserver.png](web_app/my_site/img/runserver.png)
+![Runserver](web_app/my_site/img/runserver.png)
 
-- Clic on http://127.0.0.1:8000 adn you can see a home page:
+5. **Open the web app in your browser:**
 
-![main_page.png](web_app/my_site/img/main_page.png)
+Navigate to `http://127.0.0.1:8000/` to view the home page.
+
+![Main_page](web_app/my_site/img/main_page.png)
 
 ## What's inside
-- `/main` is responsible the main settings application;
-- `/my_site` is responsible the home page;
-- `/news` is responsible the news page.
+- `/main` contais the main settings for the application;
+- `/my_site` handle the home page functionality;
+- `/news` manage the news page.
 
 
 ## Requirements
