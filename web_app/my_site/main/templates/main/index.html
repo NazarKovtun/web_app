@@ -6,8 +6,9 @@
     <div class="features">
         <h1>{{ title }}</h1>
         <div class="content-block">
-            <p>Цей сайт має купу інформації та допоможе Вам вирішити будь-які питання, можливо ;)</p>
-            <a href="{% url 'about' %}"><button class="btn btn-warning">На сторінку Про нас</button></a>
+            <p>Цей сайт має купу інформації та допоможе Вам розв'язати будь-які питання, можливо ;)</p>
+            <a href="{% url 'news_home' %}"><button class="btn btn-warning">Статті</button></a>
+            <a href="{% url 'about' %}"><button class="btn btn-warning">Про нас</button></a>
         </div>
 
         {% for el in values %}
