@@ -103,6 +103,13 @@ form {
 .content-block {
     width: 50%;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-warning {
+    margin: 15px 0;
+    min-width: 100px;
 }
 
 .content-about {
